@@ -41,5 +41,5 @@ html_title = "scCoAnnotate"
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
 
-# def setup(app):
-#     app.add_css_file('custom.css')
+def setup(app):
+    app.add_css_file('_static/custom.css')
