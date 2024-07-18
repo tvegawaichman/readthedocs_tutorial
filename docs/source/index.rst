@@ -9,9 +9,6 @@ Two different workflows can be run as part of scCoAnnotate. The annotation workf
 
 .. image:: _images/scCoAnnotate_workflow.drawio.png
    :alt: Alternative text
-   :width: 400px
-   :height: 300px
-   :scale: 50 %
    :align: center
 
 Check out the :doc:`usage` section for further information, including
