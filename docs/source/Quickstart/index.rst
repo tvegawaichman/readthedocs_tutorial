@@ -1,6 +1,3 @@
-Quickstart_1
-============
-
 .. toctree::
   :maxdepth: 2
   
