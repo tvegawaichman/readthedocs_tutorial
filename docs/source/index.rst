@@ -12,7 +12,7 @@ Two different workflows can be run as part of scCoAnnotate. The annotation workf
    :align: center
 
 Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+how to :ref:`quickstart` the project.
 
 .. note::
 
@@ -22,7 +22,7 @@ Contents
 --------
 
 .. toctree::
-   :maxdepth: 2
-
+   :maxdepth: 1
+   Quickstart
    usage
    api
