@@ -7,7 +7,7 @@ The pipeline is automated and running it does not require prior knowledge of mac
 
 Two different workflows can be run as part of scCoAnnotate. The annotation workflow takes both a references data set and query samples with the aim of annotating the query samples. The benchmarking workflow takes only the reference and preforms a M fold cross validation.
 
-.. image:: _images/scCoAnnotate_workflow.drawio.png
+.. image:: _static/img/scCoAnnotate_workflow.drawio.png
    :alt: Alternative text
    :align: center
 

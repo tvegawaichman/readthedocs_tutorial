@@ -30,9 +30,15 @@ intersphinx_disabled_domains = ['std']
 
 templates_path = ['_templates']
 
+    
 # -- Options for HTML output
 
 html_theme = 'sphinx_rtd_theme'
-
+html_static_path = ['_static']
+#html_logo = "_static/img/Scanpy_Logo_BrightFG.svg"
+html_title = "scCoAnnotate"
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+def setup(app):
+    app.add_css_file('custom.css')
