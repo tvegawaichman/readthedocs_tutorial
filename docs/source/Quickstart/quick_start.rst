@@ -26,7 +26,6 @@ Both the cell x gene matrix and cell x label matrix need the first column to be 
 .. list-table:: Cell x Gene matrix
    :widths: 25 25 25 25
    :header-rows: 1
-   :class: centered-table
 
    * - ''
      - Gene1
@@ -53,7 +52,6 @@ Both the cell x gene matrix and cell x label matrix need the first column to be 
 .. list-table:: Cell x Label data.frame
    :widths: 50 50
    :header-rows: 1
-   :class: centered-table
 
    * - ''
      - label
@@ -82,7 +80,6 @@ The first column needs to be the cell names with an empty column name.
 .. list-table:: Cell x Gene matrix
    :widths: 25 25 25 25
    :header-rows: 1
-   :class: centered-table
 
    * - ''
      - Gene1
