@@ -32,20 +32,20 @@ Both the cell x gene matrix and cell x label matrix need the first column to be 
      - Gene2
      - Gene3
    * - cell1
-     - cell2
-     - cell3
-     - cell4
-   * - 1
-     - 54
-     - 0
      - 1
-   * - 24
+     - 24
+     - 30
+   * - cell2
+     - 54
      - 20
-     - 12
-     - 13
-   * - 30
      - 61
+   * - cell3
      - 0
+     - 12
+     - 0
+   * - cell4
+     - 1
+     - 13
      - 17
 
 **cell x label matrix**
