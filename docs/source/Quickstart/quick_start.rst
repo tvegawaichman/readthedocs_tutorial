@@ -23,7 +23,6 @@ The input format for the references could be a **cell x gene matrix (.csv)** of 
 
 Both the cell x gene matrix and cell x label matrix need the first column to be the cell names in matching order with an empty column name.
 
-**cell x gene matrix**
 
 .. code-block:: console
 
@@ -33,6 +32,30 @@ Both the cell x gene matrix and cell x label matrix need the first column to be 
   cell3,0,12,0
   cell4,1,13,17
 
+.. list-table:: Cell x Gene matrix
+   :widths: 25 25 50
+   :header-rows: 1
+
+   * - ''
+     - Gene1
+     - Gene2
+     - Gene3
+   * - cell1
+     - cell2
+     - cell3
+     - cell4
+   * - 1
+     - 54
+     - 0
+     - 1
+   * - 24
+     - 20
+     - 12
+     - 13
+   * - 30
+     - 61
+     - 0
+     - 17
 
 **cell x label matrix**
 
