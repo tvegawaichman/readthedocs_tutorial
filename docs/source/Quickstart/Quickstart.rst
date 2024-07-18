@@ -1,4 +1,4 @@
-Usage
+Quickstart
 =====
 
 .. _quickstart:
@@ -57,6 +57,7 @@ The first column needs to be the cell names with an empty column name.
 
 **cell x gene matrix**
 .. code-block:: console
+
   '',gene1,gene2,gene3
   cell1,27,1,34
   cell2,0,12,56
