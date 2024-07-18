@@ -49,15 +49,21 @@ Both the cell x gene matrix and cell x label matrix need the first column to be 
      - 13
      - 17
 
-**cell x label matrix**
+.. list-table:: Cell x Label data.frame
+   :widths: 50 50
+   :header-rows: 1
+   :class: centered-table
 
-.. code-block:: console
-
-  '',label 
-  cell1,label1
-  cell2,label1
-  cell3,label3
-  cell4,label2
+   * - ''
+     - label
+   * - cell1
+     - label1
+   * - cell2
+     - label1
+   * - cell3
+     - label3
+   * - cell4
+     - label2
 
 Also, the input format for the reference could be a **Seurat** or **SingleCellExperiment** object. 
 In the expression the path to the object should be specified (formats .rda, .rds). And in the labels the metadata column used for the labels.
@@ -72,15 +78,31 @@ The input format for the query samples could be a **cell x gene matrix** (.csv) 
 
 The first column needs to be the cell names with an empty column name.
 
-**cell x gene matrix**
+e:: Cell x Gene matrix
+   :widths: 25 25 25 25
+   :header-rows: 1
+   :class: centered-table
 
-.. code-block:: console
-
-  '',gene1,gene2,gene3
-  cell1,27,1,34
-  cell2,0,12,56
-  cell3,0,17,12
-  cell4,54,20,61
+   * - ''
+     - Gene1
+     - Gene2
+     - Gene3
+   * - cell1
+     - 14
+     - 2
+     - 32
+   * - cell2
+     - 54
+     - 17
+     - 54
+   * - cell3
+     - 20
+     - 8
+     - 0
+   * - cell4
+     - 1
+     - 23
+     - 17
 
 Also, the input format for the reference could be a **Seurat** or **SingleCellExperiment** object. 
 In the expression the path to the object should be specified (formats .rda, .rds). And in the labels the metadata column used for the labels.
