@@ -26,6 +26,7 @@ Both the cell x gene matrix and cell x label matrix need the first column to be 
 **cell x gene matrix**
 
 .. code-block:: console
+
   '',gene1,gene2,gene3
   cell1,1,24,30
   cell2,54,20,61
@@ -36,6 +37,7 @@ Both the cell x gene matrix and cell x label matrix need the first column to be 
 **cell x label matrix**
 
 .. code-block:: console
+
   '',label 
   cell1,label1
   cell2,label1
@@ -56,6 +58,7 @@ The input format for the query samples could be a **cell x gene matrix** (.csv) 
 The first column needs to be the cell names with an empty column name.
 
 **cell x gene matrix**
+
 .. code-block:: console
 
   '',gene1,gene2,gene3
@@ -85,7 +88,7 @@ The consensus could it be calculated with the majority vote, specifying the mini
 At least one consensus type should be specified.
 See: [Example Config](example.config.yml)
 
-.. code-block:: console
+.. code-block:: yaml
   # target directory 
   output_dir: <output directory for the annotation workflow>
 
@@ -160,7 +163,7 @@ To run the snakemake pipeline on a HPC a submission script needs to be prepared
 
 See: [Example Bash Script](example.submit.sh)
 
-.. code-block:: console
+.. code-block:: bash
   module load scCoAnnotate/2.0
 
   # path to snakefile and config 
