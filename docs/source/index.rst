@@ -22,7 +22,8 @@ Contents
 --------
 
 .. toctree::
-   :maxdepth: 2
-   Quickstart
+   :maxdepth: 1
+   :hiden:
+   Quickstart/index
    usage
    api
