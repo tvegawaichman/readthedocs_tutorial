@@ -1,5 +1,5 @@
 scCoAnnotate
-===================================
+============
 
 **scCoAnnotate** is an snakemake pipeline for consensus prediction of cell types in single-cell RNA sequencing (scRNA-seq) data. The pipeline allows users to run up to 15 different reference-based annotation tools (statistical models and machine learning approaches) to predict cell type labels of multiple scRNA-seq samples. It then outputs a consensus of the predictions, which has been found to have increased accuracy in benchmarking experiments compared to the individual predictions alone, by combining the strengths of the different approaches.
 
@@ -22,8 +22,8 @@ Contents
 --------
 
 .. toctree::
-   :maxdepth: 1
-   :hiden:
+   :maxdepth: 2
+   
    Quickstart/index
    usage
    api
