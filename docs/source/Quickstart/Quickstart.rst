@@ -1,5 +1,5 @@
 Quickstart
-=====
+==========
 
 .. _quickstart:
 
