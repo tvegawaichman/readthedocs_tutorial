@@ -154,7 +154,7 @@ See: [Example Config](example.config.yml)
 See: [Changing Default Parameters](##changing-default-parameters)
 
 5. Prepare HPC submission script (OPTIONAL, UPDATE TO USE THE APPTAINER)
----------------------------------
+----------------
 
 To run the snakemake pipeline on a HPC a submission script needs to be prepared 
 
