@@ -89,6 +89,7 @@ At least one consensus type should be specified.
 See: [Example Config](example.config.yml)
 
 .. code-block:: yaml
+
   # target directory 
   output_dir: <output directory for the annotation workflow>
 
@@ -164,6 +165,7 @@ To run the snakemake pipeline on a HPC a submission script needs to be prepared
 See: [Example Bash Script](example.submit.sh)
 
 .. code-block:: bash
+  
   module load scCoAnnotate/2.0
 
   # path to snakefile and config 
