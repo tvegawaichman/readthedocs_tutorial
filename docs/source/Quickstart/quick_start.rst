@@ -26,6 +26,7 @@ Both the cell x gene matrix and cell x label matrix need the first column to be 
 .. list-table:: Cell x Gene matrix
    :widths: 25 25 25 25
    :header-rows: 1
+   :align: center
 
    * - ''
      - Gene1
