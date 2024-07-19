@@ -25,6 +25,7 @@ Option 1: Add corresponding section to your own config file
 This section is found in the default config: 
 
 .. code-block:: yaml
+  
   scHPL:
     threads: 1
     classifier: 'svm'
@@ -34,6 +35,7 @@ This section is found in the default config:
 Create a corresponding section in your config and change the threshold value to 0.25: 
 
 .. code-block:: yaml
+  
   # target directory 
   output_dir: <output directory for the annotation workflow>
   
@@ -88,6 +90,7 @@ Create a corresponding section in your config and change the threshold value to 
 In this case your submission script would look like this:
 
 .. code-block:: bash
+  
   # path to snakefile and config 
   snakefile=<path to snakefile>
   config=<path to configfile>
@@ -99,6 +102,7 @@ In this case your submission script would look like this:
 ### Example of some non-tool specific paramters 
 
 .. code-block:: bash
+  
   # convert gene symbols in reference from mouse to human 
   convert_ref_mm_to_hg: False
 
