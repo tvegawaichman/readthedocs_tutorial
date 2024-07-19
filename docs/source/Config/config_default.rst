@@ -13,9 +13,9 @@ To over ride these values you can either add a corresponding section in your con
 The order of overwriting parameters are as follows:
 
 The order of overwriting parameters are as follows: 
-1. Config specified in the snakefile (in this case the default config)
-2. Config specified as snakemake argument with `--configfile` (in the order they are added)
-3. Parameters specified directly in snakemake argument with `--config`
+#. Config specified in the snakefile (in this case the default config)
+#. Config specified as snakemake argument with `--configfile` (in the order they are added)
+#. Parameters specified directly in snakemake argument with `--config`
 
 **### Option 1: Add corresponding section to your own config file **
 
