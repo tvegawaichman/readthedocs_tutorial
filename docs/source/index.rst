@@ -26,5 +26,6 @@ Contents
    
    Quickstart/index
    Config/index
+   Consensus_methods/index
    usage
    api
