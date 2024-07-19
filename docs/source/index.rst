@@ -25,5 +25,6 @@ Contents
    :maxdepth: 2
    
    Quickstart/index
+   Config/index
    usage
    api
