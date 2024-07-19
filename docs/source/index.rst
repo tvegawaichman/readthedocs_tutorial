@@ -27,5 +27,6 @@ Contents
    Quickstart/index
    Config/index
    Consensus_methods/index
-   usage
-   api
+   Pretrain/index
+   Tools/index
+   FAQ
