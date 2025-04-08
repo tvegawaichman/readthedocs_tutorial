@@ -18,7 +18,7 @@ Whenever you see an Excersise button like this, click it for some extra challeng
    
 
 
-## Lets start!! 
+Lets start!! 
 ------------
 
 To start create a folder to run the tutorial in and :code:`cd` into it
@@ -35,7 +35,7 @@ Create a folder for the logs
   mkdir logs
 
 
-## Set up 
+Set up 
 ----------------
 
 **1. Clone git repository**
@@ -103,7 +103,7 @@ At this point you should have the following files and folders in :code:`CoRAL_tu
   Scripts
   logs
   
-## Run the benchmarking pipeline 
+Run the benchmarking pipeline 
 --------------------------------
 
 **1. Set up the config file** 
@@ -291,7 +291,8 @@ The most important files outputed by the pipeline is:
   </details>
   
 
-## Run the training pipeline 
+Run the training pipeline 
+----------------------------
 
 **1. Set up the config file** 
 
@@ -400,7 +401,8 @@ The most important files outputed by the pipeline is the model files for each me
   Out/Train/model/test_reference/Symphony/Symphony_model.Rda
   Out/Train/model/test_reference/scClassify/scClassify_model.Rda
 
-## Run the annotation pipeline 
+Run the annotation pipeline
+--------------------------------
 
 **1. Set up the config file** 
 
@@ -547,7 +549,8 @@ The most important files outputed by the pipeline is:
   :code:`Out/Annotate/ct_p6/test_reference/CAWPE/Prediction_Summary_label.tsv`
 - The :code:`.csv` file with the CAWPE scores: :code:`Out/Annotate/ct_p6/test_reference/CAWPE/CAWPE_T_4_label_scores.csv`
 
-## Additional features 
+Additional features 
+----------------------
 
 **1. Add an celltype otology for your reference dataset in the benchmarking pipeline** 
 
@@ -664,7 +667,8 @@ You could also have a mix of :code:`.Rda`, :code:`.Rds` and :code:`.csv`!
   </details>
   
 
-## Tutorial Over!! 
+Tutorial Over!! 
+------------------
 
 Good job! For more information about each pipline, snakemake, parameters and other things see the rest of this documentation. 
 
