@@ -414,7 +414,7 @@ Now you are finally ready to run the annotation pipeline!! The first thing you n
 
 The mode has now changed to annotate and the output directory has been updated 
 
-.. code-block:: console
+.. code-block:: yaml
 
   # pipeline to run 
   mode: 'annotate'
@@ -425,7 +425,7 @@ The mode has now changed to annotate and the output directory has been updated
 
 In the reference section everything is the same except :code:`pretrain_models`, which is now filled out with the path to the models you trained in the previous section. 
 
-.. code-block:: console
+.. code-block:: yaml
 
   # reference parameters 
   references:
@@ -437,7 +437,7 @@ In the reference section everything is the same except :code:`pretrain_models`, 
 
 A section has also been added with the query samples. In this case we have added 3 samples from a cortical developmental mouse atlas from embryonic day 16 (ct_e16), post-natal day 0 (ct_p0), and post natal day 6 (ct_p6). 
 
-.. code-block:: console
+.. code-block:: yaml
 
   # paths to query data sets 
   query_datasets:
@@ -449,7 +449,7 @@ Make sure to update all the paths to the full paths!!!
 
 Finally the consensus section has been updated to include paramters for CAWPE (weighted ensemble voting) and majority vote. CAWPE only works if you have run the benchmarking, since it needs the accuracy metrics from the benchmarking to weight the conseunsus. 
 
-.. code-block:: console
+.. code-block:: yaml
 
   # consensus prameters 
   consensus:
@@ -567,7 +567,7 @@ This :code:`.csv` file maps each label in the reference to a higher level catego
 
 Open your config file :code:'ConfigFiles/benchmark.yml' and add the ontology file to the reference section like this (add the full path):
 
-.. code-block:: console
+.. code-block:: yaml
   
   # reference parameters 
   references:
@@ -628,7 +628,7 @@ It is possible to input :code:`Seurat` (v3 or v4) or :code:`SingleCellExperiment
 
 If you had a reference data set saved as :code:`Reference.Rda` in the Reference folder you would specify it like this in the config file: 
 
-.. code-block:: console
+.. code-block:: yaml
 
   # reference parameters 
   references:
@@ -641,7 +641,7 @@ Notice that the :code:`labels:` parameter is now a column name in the meta data 
 
 If you have your query samples saved as Seurat or SingleCellExperiment you would specify them like this:
 
-.. code-block:: console
+.. code-block:: yaml
 
   # paths to query data sets 
   query_datasets:
@@ -651,7 +651,7 @@ If you have your query samples saved as Seurat or SingleCellExperiment you would
 
 You could also have a mix of :code:`.Rda`, :code:`.Rds` and :code:`.csv`! 
 
-.. code-block:: console
+.. code-block:: yaml
 
   # paths to query data sets 
   query_datasets:
@@ -664,6 +664,7 @@ You could also have a mix of :code:`.Rda`, :code:`.Rds` and :code:`.csv`!
   <details>
     <summary>Exercise</summary>
     If you are very ambitious you can try to save the .csv files as seurat objects and rerun the pipeline with these! 
+    
   </details>
   
 
@@ -677,5 +678,6 @@ Good job! For more information about each pipline, snakemake, parameters and oth
   <details>
     <summary>Exercise</summary>
     Use your own data!! :) 
+    
   </details>
   
