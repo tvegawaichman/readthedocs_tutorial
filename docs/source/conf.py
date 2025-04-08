@@ -6,7 +6,7 @@ project = 'CoRAL'
 copyright = '2025, Vega Waichman - Annet'
 author = 'Vega Waichman - Annet'
 
-release = '0.$'
+release = '0.1.0'
 version = '0.4.0'
 
 # -- General configuration
