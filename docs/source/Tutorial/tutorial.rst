@@ -9,9 +9,12 @@ The tutorial uses a small reference and query data set from the developing mouse
 
 Whenever you see an Excersise button like this, click it for some extra challenges!!
 
-.. dropdown:: Exercise
+.. raw:: html
 
-   Hello!! :sparkles:
+   <details>
+     <summary>Exercise</summary>
+     Hello!! ✨
+   </details>
 
 1-Clone repository and install dependencies
 ------------
