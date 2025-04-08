@@ -11,7 +11,8 @@ CoRAL architecture consists of three key components: (1) individual method perfo
    :alt: Alternative text
    :align: center
 
-Check out the :doc:`Quickstart/index/quick_start` section for further information.
+Check out the :doc:`quickstart/index/quick_start` section for further information, including
+how to :ref:`quickstart` the project.
 
 .. note::
 
