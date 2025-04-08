@@ -116,14 +116,14 @@ The first thing you need to do is check the config file for the benchmarking pip
   
 The confign file specifies which pipeline to run
 
-.. code-block:: console
+.. code-block:: yaml
   
   # pipeline to run 
   mode: 'benchmark'
 
 Where the reference data set files are stored and where to write the output 
 
-.. code-block:: console
+.. code-block:: yaml
 
   # reference parameters 
   references:
@@ -134,7 +134,7 @@ Where the reference data set files are stored and where to write the output
 
 Which methods to run. In this tutorial we start by running 5 methods (SingleR, scClassify, SciBet, Correlation and Symphony), but there are many more methods available in the pipeline. 
 
-.. code-block:: console
+.. code-block:: yaml
 
   # methods to run
   tools_to_run:
@@ -146,7 +146,7 @@ Which methods to run. In this tutorial we start by running 5 methods (SingleR, s
         
 How many folds to run in the cross validation 
 
-.. code-block:: console
+.. code-block:: yaml
 
   # benchmark parameters 
   benchmark:
@@ -154,7 +154,7 @@ How many folds to run in the cross validation
 
 And how to compute the consensus 
 
-.. code-block:: console
+.. code-block:: yaml
 
   # consensus prameters 
   consensus:
@@ -304,7 +304,7 @@ Now that you have run the benchmarking pipeline you can run the training pipelin
 
 The only thing that is different is the :code:`mode` and that you need to add a parameter for the output directory: :code:`output_dir`
 
-.. code-block:: console
+.. code-block:: yaml
 
   # pipeline to run 
   mode: 'pretrain'
