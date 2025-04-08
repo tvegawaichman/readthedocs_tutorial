@@ -9,10 +9,9 @@ The tutorial uses a small reference and query data set from the developing mouse
 
 Whenever you see an Excersise button like this, click it for some extra challenges!!
 
-<details>
-  <summary>Exercise</summary>
-  Hello!! :sparkles:
-</details>
+.. dropdown:: Exercise
+
+   Hello!! :sparkles:
 
 1-Clone repository and install dependencies
 ------------
