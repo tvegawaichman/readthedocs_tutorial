@@ -2,5 +2,5 @@
   :maxdepth: 2
   
   changing_default
-  ontology
+  Ontology/ontology
   feature_space
