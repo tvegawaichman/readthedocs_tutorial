@@ -6,7 +6,7 @@
 1. Clone repository and get the apptainers that contain all the dependencies
 ------------
 
-Clone git repository in appropriate location:
+Clone git repository in an appropiate location:
 
 .. code-block:: console
 
@@ -34,6 +34,10 @@ The input format for the references could be a **cell x gene matrix (.csv)** of 
 
 Both the **cell x gene matrix** and **cell x label matrix** need the first column to be the cell names in matching order with an empty column name.
 
+.. raw:: html
+
+  <div style="display: flex; gap: 40px; justify-content: start; align-items: start;">
+
 .. list-table:: Cell x Gene matrix
    :widths: 25 25 25 25
    :header-rows: 1
@@ -59,6 +63,10 @@ Both the **cell x gene matrix** and **cell x label matrix** need the first colum
      - 13
      - 17
 
+.. raw:: html
+
+    </div>
+    <div style="display: flex; gap: 40px; justify-content: start; align-items: start;">
 
 .. list-table:: Cell x Label data.frame
    :widths: 50 50
@@ -74,6 +82,10 @@ Both the **cell x gene matrix** and **cell x label matrix** need the first colum
      - label3
    * - cell4
      - label2
+
+.. raw:: html
+
+    </div>
 
 The **Seurat** or **SingleCellExperiment** object needs to be saved as .rda or .rds and have a column in the metadata with the labels.
 **Seurat** objects are compatible until v4. 
@@ -230,7 +242,7 @@ Be aware that some tools cannot be pretrained: :code:`scAnnotate`,:code:`scID` ,
 
 For more details about each the config files of each mode, see: See: [Changing Default Parameters](##changing-default-parameters) TODO
 
-4. Prepare HPC submission script (OPTIONAL, UPDATE TO USE THE APPTAINER)
+4. Prepare HPC submission script (OPTIONAL)
 ----------------
 
 To run the snakemake pipeline on a HPC a submission script needs to be prepared
