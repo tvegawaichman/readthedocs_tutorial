@@ -1,7 +1,7 @@
+.. _ontology:
+
 🌳 Ontology
 ==========
-
-.. _ontology:
 
 1. What's an ontology
 ------------

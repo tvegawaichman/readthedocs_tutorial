@@ -1,7 +1,7 @@
+.. _quickstart:
+
 🚀 Quickstart
 ==========
-
-.. _quickstart:
 
 1. Clone repository and get the apptainers that contain all the dependencies
 ------------

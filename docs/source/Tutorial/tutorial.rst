@@ -1,7 +1,7 @@
+.. _tutorial:
+
 📙 Tutorial
 ==========
-
-.. _tutorial:
 
 This is a tutorial for the three sub-pipelines included in CoRAL.
 
