@@ -565,7 +565,7 @@ To see the content of this file run:
 
 This :code:`.csv` file maps each label in the reference to a higher level category, like Neuron, Astrocyte or Immune. 
 
-Open your config file :code:'ConfigFiles/benchmark.yml' and add the ontology file to the reference section like this (add the full path):
+Open your config file :code:`ConfigFiles/benchmark.yml` and add the ontology file to the reference section like this (add the full path):
 
 .. code-block:: yaml
   
@@ -604,6 +604,7 @@ Now remove the :code:`-n` flag and rerun the pipeline. When it's done, check the
     Compare the reports from the different ontology levels. Is the performace better or worse for the higher level ontology?
   </details>
   
+For more details about ontology see :ref:`ontology`
 
 **2. Add an celltype otology for your reference dataset in the annotateion pipeline** 
 
