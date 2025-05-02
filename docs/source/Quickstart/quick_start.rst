@@ -82,6 +82,10 @@ Both the **cell x gene matrix** and **cell x label matrix** need the first colum
      * - cell4
        - label2
 
+.. raw:: html
+
+    </div>
+
 The **Seurat** or **SingleCellExperiment** object needs to be saved as .rda or .rds and have a column in the metadata with the labels.
 **Seurat** objects are compatible until v4. 
 For **SingleCellExperiment** it assumes that the raw counts is in the 'counts' assay.
@@ -117,6 +121,7 @@ The first column needs to be the cell names with an empty column name.
      - 1
      - 23
      - 17
+
 
 The **Seurat** or **SingleCellExperiment** object needs to be saved as .rda or .rds.
 **Seurat** objects are compatible until v4. 
