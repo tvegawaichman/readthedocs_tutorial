@@ -40,54 +40,50 @@ Both the **cell x gene matrix** and **cell x label matrix** need the first colum
 
     <div style="width: 75%;">
 
-.. container:: table-left
+.. list-table:: Cell x Gene matrix
+   :widths: 25 25 25 25
+   :header-rows: 1
 
-  .. list-table:: Cell x Gene matrix
-     :widths: 25 25 25 25
-     :header-rows: 1
-  
-     * - ''
-       - Gene1
-       - Gene2
-       - Gene3
-     * - cell1
-       - 1
-       - 24
-       - 30
-     * - cell2
-       - 54
-       - 20
-       - 61
-     * - cell3
-       - 0
-       - 12
-       - 0
-     * - cell4
-       - 1
-       - 13
-       - 17
-  
+   * - ''
+     - Gene1
+     - Gene2
+     - Gene3
+   * - cell1
+     - 1
+     - 24
+     - 30
+   * - cell2
+     - 54
+     - 20
+     - 61
+   * - cell3
+     - 0
+     - 12
+     - 0
+   * - cell4
+     - 1
+     - 13
+     - 17
+
 .. raw:: html
 
     </div>
     <div style="width: 25%;">
     
-.. container:: table-right
-
-  .. list-table:: Cell x Label data.frame
-     :widths: 50 50
-     :header-rows: 1
+.. list-table:: Cell x Label data.frame
+   :widths: 50 50
+   :header-rows: 1
   
-     * - ''
-       - label
-     * - cell1
+   * - ''
+     - label
+   * - cell1
        - label1
-     * - cell2
-       - label1
-     * - cell3
-       - label3
-     * - cell4
-       - label2
+   * - cell2
+     - label1
+   * - cell3
+     - label3
+   * - cell4
+     - label2
 
 .. raw:: html
 
