@@ -26,6 +26,7 @@ Contents
    
    Tutorial/index
    Quickstart/index
+   Features/index
    Config/index
    Consensus_methods/index
    Pretrain/index
