@@ -1,7 +1,7 @@
-Documentation of the tools available in scCoAnnotate
-====================================================
-
 .. _tools:
+
+Documentation of the tools available in CoRAL
+====================================================
 
 scClassify
 ------------
