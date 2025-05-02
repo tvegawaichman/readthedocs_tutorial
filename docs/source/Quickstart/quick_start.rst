@@ -134,7 +134,7 @@ Multiple references can be specified with an unique **reference name** and multi
 
 Full list of available tools and detailed documentation can be found here: :ref:`tools`       
 Make sure that the names of the selected tools have the same capitalization and format as this list. 
-The consensus tools used for consensus calculation selected in **consensus -> tools** can either be 'all' (which uses all the tools in **tools_to_run**) or a list of tools to include specified by the user. 
+The consensus tools used for consensus calculation selected in **consensus -> tools** can either be :code:`all` (which uses all the tools in **tools_to_run**) or a list of tools to include specified by the user. 
 
 The consensus can be calculated as the majority vote, specifying the minimum of tool agreement or/and with CAWPE specifying the mode: CAWPE_CT (using the performance of each tool predicting an specific cell-type) or CAWPE_T (performance of each tool). CAWPE only works if the benchmarking pipeline has been run.
 For more details about consensus methods referes to: :ref:`consensus_methods` 
