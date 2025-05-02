@@ -40,6 +40,8 @@ Both the **cell x gene matrix** and **cell x label matrix** need the first colum
 
     <div style="width: 75%;">
 
+.. container:: table-left
+
   .. list-table:: Cell x Gene matrix
      :widths: 25 25 25 25
      :header-rows: 1
