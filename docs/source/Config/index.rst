@@ -1,3 +1,5 @@
+.. _config-section:
+
 Setting up the config file
 ==========================
 

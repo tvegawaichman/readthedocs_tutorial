@@ -1,9 +1,7 @@
-.. changing_default:
+.. _changing_default:
 
 ⚙️ Changing Default Parameters
 ==========
-
-.. changing_default:
 
 Overview
 ------------
