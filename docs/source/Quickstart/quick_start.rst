@@ -36,56 +36,51 @@ Both the **cell x gene matrix** and **cell x label matrix** need the first colum
 
 .. raw:: html
 
-  <div style="display: flex; gap: 40px; justify-content: start; align-items: start;">
+    <div style="display: flex; gap: 40px; align-items: flex-start;">
 
-.. list-table:: Cell x Gene matrix
-   :widths: 25 25 25 25
-   :header-rows: 1
+.. container:: table-left
 
-   * - ''
-     - Gene1
-     - Gene2
-     - Gene3
-   * - cell1
-     - 1
-     - 24
-     - 30
-   * - cell2
-     - 54
-     - 20
-     - 61
-   * - cell3
-     - 0
-     - 12
-     - 0
-   * - cell4
-     - 1
-     - 13
-     - 17
+  .. list-table:: Cell x Gene matrix
+     :widths: 25 25 25 25
+     :header-rows: 1
+  
+     * - ''
+       - Gene1
+       - Gene2
+       - Gene3
+     * - cell1
+       - 1
+       - 24
+       - 30
+     * - cell2
+       - 54
+       - 20
+       - 61
+     * - cell3
+       - 0
+       - 12
+       - 0
+     * - cell4
+       - 1
+       - 13
+       - 17
+  
+.. container:: table-right
 
-.. raw:: html
-
-    </div>
-    <div style="display: flex; gap: 40px; justify-content: start; align-items: start;">
-
-.. list-table:: Cell x Label data.frame
-   :widths: 50 50
-   :header-rows: 1
-
-   * - ''
-     - label
-   * - cell1
-     - label1
-   * - cell2
-     - label1
-   * - cell3
-     - label3
-   * - cell4
-     - label2
-
-.. raw:: html
-
-    </div>
+  .. list-table:: Cell x Label data.frame
+     :widths: 50 50
+     :header-rows: 1
+  
+     * - ''
+       - label
+     * - cell1
+       - label1
+     * - cell2
+       - label1
+     * - cell3
+       - label3
+     * - cell4
+       - label2
 
 The **Seurat** or **SingleCellExperiment** object needs to be saved as .rda or .rds and have a column in the metadata with the labels.
 **Seurat** objects are compatible until v4. 
