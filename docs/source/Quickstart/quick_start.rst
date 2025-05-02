@@ -16,11 +16,11 @@ Download apptainer/docker image:
 
 .. code-block:: console
 
-#Apptainer
-curl -L -o CoRAL.sif "https://www.dropbox.com/scl/fi/xyx3d1hbpqssjqaboqdqw/CoRAL.sif?rlkey=l56av1fb2ccd7p721rez3j4u6&st=cp7f1ec8&dl=0"
+  #Apptainer
+  curl -L -o CoRAL.sif "https://www.dropbox.com/scl/fi/xyx3d1hbpqssjqaboqdqw/CoRAL.sif?rlkey=l56av1fb2ccd7p721rez3j4u6&st=cp7f1ec8&dl=0"
 
-# Docker
-docker pull kleinmanlab/coral:celltypist_models
+  # Docker
+  docker pull kleinmanlab/coral:celltypist_models
  
 Now that we get the code and all the dependencies, let's start to prepare the input files
 
