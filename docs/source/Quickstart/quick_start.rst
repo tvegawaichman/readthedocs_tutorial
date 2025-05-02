@@ -84,7 +84,7 @@ Both the **cell x gene matrix** and **cell x label matrix** need the first colum
 
 .. raw:: html
 
-    <div>
+    </div>
 
 The **Seurat** or **SingleCellExperiment** object needs to be saved as .rda or .rds and have a column in the metadata with the labels.
 **Seurat** objects are compatible until v4. 
