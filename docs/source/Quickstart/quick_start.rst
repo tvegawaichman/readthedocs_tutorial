@@ -239,8 +239,8 @@ Be aware that some tools cannot be pretrained: :code:`scAnnotate`, :code:`scID` 
                     mode: [<CAWPE mode>]
 
 
-For more details about the config files of each mode, see: See: ref:`Config/index`
-To further customized your config file see: ref:`changing_default`
+For more details about the config files of each mode, see: See: :ref:`Config/index`
+To further customized your config file see: :ref:`changing_default`
 
 4. Prepare HPC submission script (OPTIONAL)
 ----------------
