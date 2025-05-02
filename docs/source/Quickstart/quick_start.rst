@@ -136,7 +136,7 @@ Full list of available tools and detailed documentation can be found here: :ref:
 Make sure that the names of the selected tools have the same capitalization and format as this list. 
 The consensus tools used for consensus calculation selected in **consensus -> tools** can either be :code:`all` (which uses all the tools in **tools_to_run**) or a list of tools to include specified by the user. 
 
-The consensus can be calculated as the majority vote, specifying the minimum of tool agreement or/and with CAWPE specifying the mode: CAWPE_CT (using the performance of each tool predicting an specific cell-type) or CAWPE_T (performance of each tool). CAWPE only works if the benchmarking pipeline has been run.
+The consensus can be calculated as the majority vote, specifying the minimum of tool agreement or/and with CAWPE specifying the mode: :code:`CAWPE_CT` (using the performance of each tool predicting an specific cell-type) or :code:`CAWPE_T` (performance of each tool). CAWPE only works if the benchmarking pipeline has been run.
 For more details about consensus methods referes to: :ref:`consensus_methods` 
 At least one consensus type should be specified.
 
@@ -175,7 +175,7 @@ At least one consensus type should be specified.
                     min_agree: [<minimum agreemeent to use>]
 
 **Minimal config file for pretraining the models:**
-Be aware that some tools cannot be pretrained: :code:`scAnnotate`,:code:`scID` , :code:`scNym`
+Be aware that some tools cannot be pretrained: :code:`scAnnotate`, :code:`scID` , :code:`scNym`
 
 .. code-block:: yaml
 
@@ -239,7 +239,8 @@ Be aware that some tools cannot be pretrained: :code:`scAnnotate`,:code:`scID` ,
                     mode: [<CAWPE mode>]
 
 
-For more details about each the config files of each mode, see: See: [Changing Default Parameters](##changing-default-parameters) TODO
+For more details about the config files of each mode, see: See: ref:`Config/index`
+To further customized your config file see: ref:`changing_default`
 
 4. Prepare HPC submission script (OPTIONAL)
 ----------------
