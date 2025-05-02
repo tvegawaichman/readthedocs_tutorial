@@ -580,7 +580,7 @@ Open your config file :code:`ConfigFiles/benchmark.yml` and add the ontology fil
 
 Now perform a dryrun like before (add the :code:`-n` flag in your pipeline command and run the script in the command line) 
 
-The output of the drydun should look like this:
+The output of the dry run should look like this:
 
 .. code-block:: console
 
@@ -604,22 +604,23 @@ Now remove the :code:`-n` flag and rerun the pipeline. When it's done, check the
     Compare the reports from the different ontology levels. Is the performace better or worse for the higher level ontology?
   </details>
   
-For more details about ontology see :ref:`ontology`
+For more details about ontology see the :ref:`ontology` section.
 
-**2. Add an celltype otology for your reference dataset in the annotateion pipeline** 
+**2. Add an celltype otology for your reference dataset in the annotation pipeline** 
 
 Now that you've added the ontology in the benchmarking pipeline you can do the same for the annotation pipeline. Do the same steps as for the benchmarking: 
 
-- Add the ontology in the config file
-- Perform a dry run (the pipeline should not rerun any of the prediction steps, just the consensus and report steps)
-- Run the workflow again
-- Check the reports folder
+1. Add the ontology in the config file
+2. Perform a dry run (the pipeline should not rerun any of the prediction steps, just the consensus and report steps)
+3. Run the workflow again
+4. Check the reports folder
 
 .. raw:: html
 
   <details>
     <summary>Exercise</summary>
     Compare the reports from the different ontology levels. Is the performace better or worse for the higher level ontology?
+    
   </details>
   
 
@@ -638,7 +639,7 @@ If you had a reference data set saved as :code:`Reference.Rda` in the Reference 
         labels: 'celltype'
         output_dir_benchmark: Out/Benchmark
 
-Notice that the :code:`labels:` parameter is now a column name in the meta data of the object instead of a :code:`.csv` file. The column can be named anything and it's specified in the same way for Seurat or SingleCellExperiment.
+Notice that the :code:`labels` parameter is now a column name in the meta data of the object instead of a :code:`.csv` file. The column can be named anything and it's specified in the same way for Seurat or SingleCellExperiment.
 
 If you have your query samples saved as Seurat or SingleCellExperiment you would specify them like this:
 
