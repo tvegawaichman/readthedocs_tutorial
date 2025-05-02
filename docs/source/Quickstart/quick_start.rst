@@ -36,9 +36,9 @@ Both the **cell x gene matrix** and **cell x label matrix** need the first colum
 
 .. raw:: html
 
-    <div style="display: flex; gap: 40px; align-items: flex-start;">
+    <div style="display: flex; width: 100%; gap: 20px; justify-content: space-between; align-items: flex-start;">
 
-.. container:: table-left
+    <div style="width: 75%;">
 
   .. list-table:: Cell x Gene matrix
      :widths: 25 25 25 25
@@ -65,6 +65,11 @@ Both the **cell x gene matrix** and **cell x label matrix** need the first colum
        - 13
        - 17
   
+.. raw:: html
+
+    </div>
+    <div style="width: 25%;">
+    
 .. container:: table-right
 
   .. list-table:: Cell x Label data.frame
@@ -84,6 +89,7 @@ Both the **cell x gene matrix** and **cell x label matrix** need the first colum
 
 .. raw:: html
 
+    </div>
     </div>
 
 The **Seurat** or **SingleCellExperiment** object needs to be saved as .rda or .rds and have a column in the metadata with the labels.
