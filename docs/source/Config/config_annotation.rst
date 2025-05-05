@@ -71,9 +71,11 @@ Configuration File for Annotation
 Features
 ^^^^^^^^^^
 - *mode*: In this case will be 'annotation'.
-- *gene_threshold*: Numeric (default 0.25). Minimal proportion of overlaping between reference and query to train and predict. **note** only used when :code:`gene_selection` is run with intersection.
+  
+- *gene_threshold*: Numeric (default 0.25). Minimal proportion of overlaping between reference and query to train and predict. **Note** only used when :code:`gene_selection` is run with intersection.
 - *output_dir*: Output directory for the annotation pipeline.
-- *reference*
+  
+- *reference*:
   - *expression*: Path to expression matrix, seurat object or single cell experiment. Not necessary if pretrain_models path were specified.
   - *labels*: Path to labels files or column with label metadata. Not necessary if pretrain_models path were specified.
   - *batch*: Path to batch files or column with batch metadata. Not necessary if pretrain_models path were specified. This information is used in tools that use the integration stratergy (TOOLS)
