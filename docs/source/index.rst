@@ -25,7 +25,7 @@ Contents
    :maxdepth: 2
    
    Tutorial/index
-   Quickstart/index
+   Quickstart/quick_start
    Features/index
    Config/index
    Consensus_methods/index
