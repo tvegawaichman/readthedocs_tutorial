@@ -1,7 +1,10 @@
 .. config_annotation:
 
-What is annotation?
+Annotation pipeline
 =================================
+
+What is annotation?
+----------------
 
 The annotation pipeline can be run in two ways: from scratch or using pretrained models.
 
@@ -36,14 +39,14 @@ Configuration File for Annotation
                 value: 10
                 stratified: True
               ontology:
-                ontology_path
-                ontology_column
+                ontology_path:
+                ontology_column:
         <reference_name_2>:
               output_dir_benchmark: 
               pretrain_models: 
               ontology:
-                ontology_path
-                ontology_column
+                ontology_path:
+                ontology_column:
   
   # path to query datasets (cell x gene raw counts, seurat or single cell experiment)
   query_datasets:
