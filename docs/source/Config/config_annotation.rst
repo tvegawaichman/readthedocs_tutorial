@@ -97,7 +97,7 @@ Features
   - *batch*: 
     Path to batch files or column with batch metadata. 
     Not necessary if :code:`pretrain_models` path were specified.
-    This information is used in tools that use the integration stratergy (TOOLS)
+    This information is used in tools that use the integration stratergy: :code:`CellBlast`, :code:`Seurat`, :code:`scPoli`, :code:`Symphony`, :code:`scANVI`
     
   - *pretrain_models*: 
     Path to pretrained models. 
