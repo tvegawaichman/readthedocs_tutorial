@@ -24,7 +24,7 @@ Contents
 .. toctree::
    :maxdepth: 2
    
-   Tutorial/index
+   Tutorial/tutorial
    Quickstart/quick_start
    Features/index
    Config/index
