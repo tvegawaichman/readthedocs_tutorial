@@ -11,9 +11,9 @@ The pipeline uses a default config file in addition to the user defined one to s
 To over ride these values you can either add a corresponding section in your config file or copy the whole default config to your run folder, change the values and add it as an extra config in the submission script. The second option may be preferable if you are changing many of the default parameters.
 
 The order of overwriting parameters are as follows:
-  1 - Config specified in the snakefile (in this case the default config)
-  2 - Config specified as snakemake argument with :code:`--configfile` (in the order they are added)
-  3 - Parameters specified directly in snakemake argument with :code:`--config`
+  1. Config specified in the snakefile (in this case the default config)
+  2. Config specified as snakemake argument with :code:`--configfile` (in the order they are added)
+  3. Parameters specified directly in snakemake argument with :code:`--config`
 
 Examples
 ------------
