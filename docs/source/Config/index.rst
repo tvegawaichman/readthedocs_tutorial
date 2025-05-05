@@ -1,12 +1,11 @@
-.. _config-section:
-
-Setting up the config file
+Configuration Files
 ==========================
+
+.. _config-section:
 
 .. toctree::
   :maxdepth: 2
   
-  config_default
   config_annotation
   config_benchmarking
   config_pretrain
