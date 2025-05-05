@@ -1,10 +1,11 @@
-Config Pretrain
+.. _pretrain:
+
+Pretrained Models
 =======================
 
-.. _pretrain:
+List of pretrained models we provided to use.
 
 Pretrain models
 ------------
-
 
 TODO
