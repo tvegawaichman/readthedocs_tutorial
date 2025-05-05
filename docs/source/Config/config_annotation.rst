@@ -3,7 +3,7 @@
 Annotation pipeline
 =================================
 
-What is annotation?
+What is the annotation pipeline?
 ----------------
 
 The annotation pipeline can be run in two ways: from scratch or using pretrained models.
