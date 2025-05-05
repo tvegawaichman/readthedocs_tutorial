@@ -1,6 +1,6 @@
 .. config_benchmarking:
 
-Cross-Validation pipeline
+🧮 Cross-Validation pipeline
 =================================
 
 What is the Cross-Validation pipeline?

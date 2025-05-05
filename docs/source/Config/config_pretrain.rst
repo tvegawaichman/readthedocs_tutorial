@@ -1,6 +1,6 @@
 .. config_annotation:
 
-Pretrain pipeline
+🏋️ Pretrain pipeline
 =================================
 
 What is the pretrain pipeline?
@@ -10,7 +10,7 @@ The pretrain pipeline consist in only pretrain the models.
 This is very useful when you are predicting for many queries and you want to use the same models in the future for saving time.
 All the configuration file will be focus in the reference preparation.
 
-Configuration File for Pipeline
+Configuration File for Pretrain
 ----------------
 
 .. code-block:: yaml

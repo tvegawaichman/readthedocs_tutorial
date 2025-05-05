@@ -1,4 +1,4 @@
-Configuration Files
+🛠️ Configuration Files
 ==========================
 
 The pipeline can be run in three different modes: Annotation, Cross-Validation and Pretrain.

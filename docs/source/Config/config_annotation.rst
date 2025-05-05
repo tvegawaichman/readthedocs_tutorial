@@ -1,6 +1,6 @@
 .. config_annotation:
 
-Annotation pipeline
+🖌️ Annotation pipeline
 =================================
 
 What is the annotation pipeline?
