@@ -113,7 +113,8 @@ Features
   - *output_dir_benchmark*:  
     Path to benchmarking pipeline ran in the :ref:`config_benchmarking` pipeline where the weight for CoRAL were calculated. Only needed if CAWPE mode is specified as a consensus method.
     
-  - **This features are use to modify your reference before running the training**:
+    
+  **This features are use to modify your reference before running the training**:
   
     - *convert_ref_mm_to_hg*: 
       Logical. 
@@ -160,7 +161,13 @@ Features
         Minimal agreement to use, every cell whit less than this value will be automaticly called **No Consensus**. 
         More than one threshold could be specified.
         
-    - *CAWPE*: To use consensus with weighted ensemble voting. This will use the performance on the :ref:`config_benchmarking` step to weight the contribution of each tool to each prediction. 
-      - *mode*: CAWPE mode to use. More than one mode could be specified. See :ref:`consensus_methods`.
-      - *alpha*: Numeric list. Hyperparameter for CAWPE calculation. More than one alpha can be specified. See :ref:`consensus_methods` for more details.
+    - *CAWPE*: 
+      To use consensus with weighted ensemble voting. 
+      This will use the performance on the :ref:`config_benchmarking` step to weight the contribution of each tool to each prediction. 
+        
+        - *mode*: 
+          CAWPE mode to use. More than one mode could be specified. See :ref:`consensus_methods`.
+      
+        - *alpha*: 
+          Numeric list. Hyperparameter for CAWPE calculation. More than one alpha can be specified. See :ref:`consensus_methods` for more details.
       
