@@ -25,7 +25,7 @@ This is done in the last step of the :ref:`config_annotation` pipeline.
 We define the CoRAL score for a class c in cell k as:
 
 .. image:: _static/img/CoRAL_equation.png
-   :alt: Alternative text
+   :alt: CoRAL equation
    :align: center
 
 where α is a hyperparameter that controls the contribution of the performance to the final score. For values above 1, this hyperparameter increases the impact of differences in performance, allowing methods with a clear aptitude for a given scenario to contribute more significantly to the ensemble prediction, while ensuring that these methods can still be overruled when enough other methods disagree.
