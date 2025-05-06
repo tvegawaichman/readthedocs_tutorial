@@ -24,7 +24,7 @@ The ensemble mapping score is calculated combining the individual methods predic
 This is done in the last step of the :ref:`config_annotation` pipeline.
 We define the CoRAL score for a class c in cell k as:
 
-.. image:: _static/img/CoRAL_equation.png
+.. image:: ../_static/img/CoRAL_equation.png
    :alt: CoRAL equation
    :align: center
 
