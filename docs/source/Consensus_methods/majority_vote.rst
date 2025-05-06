@@ -3,7 +3,7 @@
 🗳️ Majority Vote 
 =================
 
-.. image:: _static/img/Relative_Majority.png
+.. image:: ../_static/img/Relative_Majority.png
    :alt: Alternative text
    :align: center
 
