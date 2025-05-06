@@ -1,7 +1,7 @@
 FAQ
 ===
 
-Snakemake Tips and Tricks 
+🐍 Snakemake Tips and Tricks 
 ------------
 
 - Dryrun snakemake pipeline before submitting job 

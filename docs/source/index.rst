@@ -7,6 +7,12 @@ CoRAL is built on Snakemake. The pipeline allows users to run up to 19 different
 The pipeline is automated and running it does not require prior knowledge of machine learning or coding in either R or Python. We provide an apptainer/dockerdocker image which has all the necessary dependencies installed. The pipeline features parallelization options through snakemake, which allows the user to utilize available computational resources on HPC clusters.
 CoRAL architecture consists of three key components: (1) individual method performance assessment (Benchmarking Workflow), (2) individual method training and cell class confidence prediction (Pretrained and Annotation Workflow), and (3) ensemble learning.
 
+.. image:: _static/img/Schema_CoRAL.png
+   :alt: Alternative text
+   :align: center
+
+Pipelines structures:
+
 .. image:: _static/img/scCoAnnotate_workflow.drawio.png
    :alt: Alternative text
    :align: center

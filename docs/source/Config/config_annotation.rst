@@ -70,6 +70,7 @@ Configuration File for Annotation
               CAWPE:
                     # ex: ['CAWPE_T'], ['CAWPE_T','CAWPE_CT']
                     mode: [<CAWPE mode>]
+                    metric: <metric>
 
 Features
 ^^^^^^^^^^
@@ -173,4 +174,7 @@ Features
       
         - *alpha*: 
           Numeric list. Hyperparameter for CAWPE calculation. More than one alpha can be specified. See :ref:`consensus_methods` for more details.
+        
+        - *metric*: 
+          Metric. Metric to use for CAWPE calculation. (F1, Precision, Recall)
       
