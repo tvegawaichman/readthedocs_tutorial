@@ -1,6 +1,6 @@
 .. _CAWPE:
 
-CAWPE 
+⚖️ CAWPE 
 =================
 
 *TODO: describe method*

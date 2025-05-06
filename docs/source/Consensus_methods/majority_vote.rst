@@ -1,6 +1,6 @@
 .. _majority_vote:
 
-Majority Vote 
+🗳️ Majority Vote 
 =================
 
 *TODO: describe method*

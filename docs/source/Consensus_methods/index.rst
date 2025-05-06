@@ -1,6 +1,6 @@
 .. _consensus_methods
 
-Consensus Methods
+🤝 Consensus Methods
 =================
 
 CoRAL offers two options for calculating the consensus between tools, Majority Vote and CAWPE (Cross-validation Accuracy Weighted Probabilistic Ensemble).
