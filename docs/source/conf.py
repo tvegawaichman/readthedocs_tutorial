@@ -3,8 +3,8 @@
 # -- Project information
 
 project = 'CoRAL'
-copyright = '2025, Vega Waichman - Annet'
-author = 'Vega Waichman - Annet'
+copyright = '2025, Vega Waichman - Annett'
+author = 'Vega Waichman - Annett'
 
 release = '0.1.0'
 version = '0.4.0'
