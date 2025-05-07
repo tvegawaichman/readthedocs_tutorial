@@ -1,6 +1,6 @@
 .. _tools:
 
-Documentation of the tools available in CoRAL
+🧰 Documentation of the tools available in CoRAL
 ====================================================
 
 scClassify

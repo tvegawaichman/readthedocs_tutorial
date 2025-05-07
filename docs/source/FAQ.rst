@@ -5,6 +5,7 @@
 ------------
 
 - Dryrun snakemake pipeline before submitting job 
+
 .. code-block:: bash
 
   snakemake -s ${snakefile} --configfile ${config} -n
