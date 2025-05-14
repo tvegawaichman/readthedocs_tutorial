@@ -97,14 +97,14 @@ The implementation was done following the tutorial in the documentation website.
 
 **Modifiable parameters**:
 scClassify is run by default with parameters from original implementation.
-:code:`topN` (default: 50):  Top number of features selected.
-:code:`weightsCal` (default: False): To calculate the weights for the model 
-:code:`hopach_kmax` (default: 5): Integer between 1 and 9 specifying the maximum number of children at each node in the HOPACH tree. 
-:code:`algorithm` (default: "WKNN"): KNN method to use, other possible values are "KNN" and "DWKNN".
-:code:`similarity` (default: "pearson"): Similarity measure to use, other possible values are:  "spearman", "cosine", "jaccard", "kendall", "binomial", "weighted_rank" and "manhattan".
-:code:`prob_threshold` (default: 0.7): Probability threshold for KNN method.
-:code:`cor_threshold_static` (default: 0.5): Static correlation threshold. 
-:code:`cor_threshold_high` (default: 0.7): Highest correlation threshold.
+*:code:`topN` (default: 50):  Top number of features selected.
+*:code:`weightsCal` (default: False): To calculate the weights for the model 
+*:code:`hopach_kmax` (default: 5): Integer between 1 and 9 specifying the maximum number of children at each node in the HOPACH tree. 
+*:code:`algorithm` (default: "WKNN"): KNN method to use, other possible values are "KNN" and "DWKNN".
+*:code:`similarity` (default: "pearson"): Similarity measure to use, other possible values are:  "spearman", "cosine", "jaccard", "kendall", "binomial", "weighted_rank" and "manhattan".
+*:code:`prob_threshold` (default: 0.7): Probability threshold for KNN method.
+*:code:`cor_threshold_static` (default: 0.5): Static correlation threshold. 
+*:code:`cor_threshold_high` (default: 0.7): Highest correlation threshold.
 
 scHPL
 ------------
