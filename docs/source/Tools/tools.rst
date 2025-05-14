@@ -21,7 +21,7 @@ The rest of the code has not been changed from the original ACTINN implementatio
 CellBlast
 ------------
 
-**Cite**: Cao, Z.-J., Wei, L., Lu, S., Yang, D.-C. & Gao, G. Searching large-scale scRNA-seq databases via unbiased cell embedding with Cell BLAST. Nat. Commun. 11, 3458 (2020). 
+**Cite**: *Cao, Z.-J., Wei, L., Lu, S., Yang, D.-C. & Gao, G. Searching large-scale scRNA-seq databases via unbiased cell embedding with Cell BLAST. Nat. Commun. 11, 3458 (2020).* 
 
 **Documentation/GitHub**:  https://cblast.readthedocs.io/en/latest/
 
